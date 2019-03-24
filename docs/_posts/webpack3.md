@@ -14,11 +14,11 @@ webpack升级到4.x的更新，是有很多大改动的，也有一些平滑的�
 
 1. webpack升级到4.x后，把核心代码和客户端分离开了，所以同时也必须要依赖webpack-cli这个包
 ```
-yarn add webpack-cli -dev
+yarn add webpack-cli --dev
 ```
 2.  webpack升级后，导致plugin机制也跟着一起变化了，因此插件包也需要升级
 ```
-yarn add html-webpack-plugin —dev
+yarn add html-webpack-plugin — dev
 ```
 webpack 3.X用于打包css的插件extract-text-webpack-plugin，不能在4中使用，所以经过有两个方法可以解决
 
@@ -147,7 +147,7 @@ mode分development（开发环境） 和 production（生产环境），webpack�
   * `Module build failed (from ./node_modules/postcss-loader/src/index.js):
 Error: Cannot load preset "advanced". Please check your configuration for errors and try again`
   ```
-  yarn add cssnano-preset-advanced -dev
+  yarn add cssnano-preset-advanced --dev
   ```
   * `XXX already has a 'content' property, give up to overwrite it.`
   在自己项目css中有使用after的content，会被打包库打包
@@ -159,7 +159,7 @@ Error: Cannot load preset "advanced". Please check your configuration for errors
   * `TypeError: Cannot read property 'eslint' of undefined`
   eslint-loader 2.0以上
   ```
-  yarn add eslint-loader -dev
+  yarn add eslint-loader --dev
   ```
 7. 对项目文件存放的理解，vue脚手架工具会有生成static文件夹和assets文件夹
 之前项目在开发中也有草莽之处，就是放静态文件全都放到static文件夹中。从现在自己的知识角度来看，才发现这是个很大的错误。
