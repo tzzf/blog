@@ -59,7 +59,7 @@ MAC终端下，命令行执行system_profiler SPUSBDataType，显示外接设备
 2. 手机端未打开usb调试模式
 那我就根据我的米8来做例子去打开usb调试模式。先要开发者模式，打开usb调试。
 <br />
-<img src="./public/debug(1)6.jpg" style="height: 300px" />
+<img src="./public/debug(1)6.jpg" style="height: 120px" />
 <br />
 以上adb就可以链接到手机了。
 <br />
