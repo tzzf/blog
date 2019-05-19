@@ -104,11 +104,11 @@ module.exports = {
       ],
   
       // 评论配置，参考下方 [页面评论] 章节
-      comments: {
-        owner: 'tzzf',
-        repo: 'tzzf.github.io',
-        clientId: '7f2f84be3afbb5a11908',
-        clientSecret: 'e305dbcb3155213ab1b1211d694939c5aaa15203',
-      },
+      // comments: {
+      //   owner: 'tzzf',
+      //   repo: 'tzzf.github.io',
+      //   clientId: '7f2f84be3afbb5a11908',
+      //   clientSecret: 'e305dbcb3155213ab1b1211d694939c5aaa15203',
+      // },
     },
   }

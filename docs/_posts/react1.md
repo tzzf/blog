@@ -136,12 +136,43 @@ export default React.forwardRef((props, ref) => {
 在项目将class component改成hooks版的function component，在内部打印执行的次数，可以看出渲染次数明显减少，而且代码量也大大减少。
 这只是仅仅讲解了两个hooks的api，和我在实践犯的错误。后续若新的hooks的新的心得体会，在后续写上。
 
+<br />
+<br />
+更新于05-19
+----------
+tip1:如果需要获取dom的ref,可以useRef获取
+```
+function TestUseRef() {
+const inputEl = React.useRef(null);
+const onButtonClick = () => {
+// 点击按钮会设置input获取焦点
+inputEl.current.focus(); // 设置useRef返回对象的值
+};
+return (
+<div>
+<p>TestUseRef</p>
+<div>
+<input ref={inputEl} type="text" />
+<Button onClick={onButtonClick}>input聚焦</Button>
+</div>
+</div>
+)
+}
+```
+
+tip2:如果你在一个function component需要维护一些复杂的state的业务逻辑，可以使用useReducer来维护业务逻辑。
+
+
 
 相关链接
 ---------------------
 1。[译React高级话题之Forwarding Refs](https://juejin.im/post/5c0dd44b51882530e4617e92)
+<br />
 2。[react文档hooks](https://zh-hans.reactjs.org/docs/hooks-reference.html#useeffect)
+<br />
 3。[React Hooks 实用指南](https://github.com/monsterooo/blog/issues/28)
+<br />
 4。[useEffect 完整指南](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
+<br />
 4。[使用React Hooks复用复杂业务组件](https://segmentfault.com/a/1190000017576343)
 
