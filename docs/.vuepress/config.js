@@ -16,7 +16,7 @@ module.exports = {
   
     // 使用的主题
     theme: 'vuepress-theme-meteorlxy',
-  
+
     // 主题配置
     themeConfig: {
       // 个人信息（没有或不想设置的，删掉对应字段即可）
@@ -34,7 +34,7 @@ module.exports = {
         location: 'Hangz\'zhou City, China',
   
         // 组织
-        // organization: 'Xi\'an Jiao Tong University',
+        // organization: '',
   
         // 头像
         avatar: 'https://s2.ax1x.com/2019/02/15/kD5mqK.jpg',
@@ -47,41 +47,6 @@ module.exports = {
             link: 'https://github.com/tzzf',
           },
   
-        //   // Facebook 帐号和链接
-        //   facebook: {
-        //     account: 'meteorlxy.cn',
-        //     link: 'https://www.facebook.com/meteorlxy.cn',
-        //   },
-  
-        //   // LinkedIn 帐号和链接
-        //   linkedin: {
-        //     account: 'meteorlxy',
-        //     link: 'http://www.linkedin.com/in/meteorlxy',
-        //   },
-  
-        //   // Twitter 帐号和链接
-        //   twitter: {
-        //     account: 'meteorlxy_cn',
-        //     link: 'https://twitter.com/meteorlxy_cn',
-        //   },
-  
-        //   // 新浪微博 帐号和链接
-        //   weibo: {
-        //     account: '@焦炭君_Meteor',
-        //     link: 'https://weibo.com/u/2039655434',
-        //   },
-  
-        //   // 知乎 帐号和链接
-        //   zhihu: {
-        //     account: 'meteorlxy.cn',
-        //     link: 'https://www.zhihu.com/people/meteorlxy.cn',
-        //   },
-  
-        //   // 豆瓣 帐号和链接
-        //   douban: {
-        //     account: '159342708',
-        //     link: 'https://www.douban.com/people/159342708',
-        //   },
         },
       },
   
@@ -105,10 +70,10 @@ module.exports = {
   
       // 评论配置，参考下方 [页面评论] 章节
       comments: {
-        owner: 'tzzf',
-        repo: 'tzzf.github.io',
-        clientId: '7f2f84be3afbb5a11908',
-        clientSecret: 'e305dbcb3155213ab1b1211d694939c5aaa15203',
+        // owner: 'tzzf',
+        // repo: 'tzzf09',
+        // clientId: 'bee11121fee7927424f9',
+        // clientSecret: 'c377cc9c8b6af3e37232e4ce69928bc05581d3ed',
       },
     },
   }
