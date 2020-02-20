@@ -82,6 +82,8 @@ yarn add lint-staged husky --dev
 }
 ```
 
+[prettier更新commit](https://github.com/tzzf/zzfui/commit/fe449ef8dfbad750271f9b5aebcde92bea3ef4e3)
+
 <br >
 这样以后写代码就不用担心自己的写代码不规范了，若是你想要自己更改规范的话，就在根目录生成.prettierrrc文件，自己定义写。
 

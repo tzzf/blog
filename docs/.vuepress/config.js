@@ -70,10 +70,10 @@ module.exports = {
   
       // 评论配置，参考下方 [页面评论] 章节
       comments: {
-        // owner: 'tzzf',
-        // repo: 'tzzf09',
-        // clientId: 'bee11121fee7927424f9',
-        // clientSecret: 'c377cc9c8b6af3e37232e4ce69928bc05581d3ed',
+        owner: 'tzzf',
+        repo: 'tzzf09',
+        clientId: 'bee11121fee7927424f9',
+        clientSecret: 'c377cc9c8b6af3e37232e4ce69928bc05581d3ed',
       },
     },
   }
