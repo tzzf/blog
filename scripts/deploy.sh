@@ -5,6 +5,7 @@ set -e
 npm run build
 
 cp googlec22ceb3107cf5e3e.html ./docs/.vuepress/dist
+cp ads.txt ./docs/.vuepress/dist
 cp CNAME ./docs/.vuepress/dist
 
 # 进入生成的文件夹

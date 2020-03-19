@@ -6,6 +6,31 @@ module.exports = {
   
     // 网站描述
     description: 'This is my blog',
+
+    head: [
+      ['script', { 
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        async: '',
+        'data-ad-client': 'ca-pub-1349025622776740',
+      }],
+      ['ins', { 
+        class: 'adsbygoogle',
+        style: 'display:block; text-align:center;',
+        'data-ad-layout': 'in-article',
+        'data-ad-format': 'fluid',
+        'data-ad-client': 'ca-pub-1349025622776740',
+        'data-ad-slot': '2782786609',
+      }],
+      ['ins', { 
+        class: 'adsbygoogle',
+        style: 'display:block;',
+        'data-full-width-responsive': 'true',
+        'data-ad-format': 'auto',
+        'data-ad-client': 'ca-pub-1349025622776740',
+        'data-ad-slot': '8657929817',
+      }],
+      ['script', {}, '(adsbygoogle = window.adsbygoogle || []).push({})'],
+    ],
   
     // 网站语言
     locales: {
