@@ -148,3 +148,37 @@ interface BaseFormProps {
 ```
 改版后可以对所有不同的提交项目单独定制化处理，然后相应的组件的props的类也是可以直接引用这里的定义的item类。
 <br />
+
+
+
+-------------------2020.11.10 更新-----------------
+
+以上方式就是typescript的联合类型。联合类型（Union Types）表示取值可以为多种类型中的一种。
+<br />
+例子如下：
+```
+interface Square {
+  kind: 'square';
+  size: number;
+}
+interface Rectangle {
+  kind: 'rectangle';
+  width: number;
+  height: number;
+}
+type Shape = Square | Rectangle;
+function area(s: Shape) {
+  switch (s.kind) {
+    case: 'square':
+      return s.size * s.size;
+    case 'rectangle':
+      return s.width * s.height
+  }
+}
+```
+<br />
+总结就是联合类型可使类型具有一定的不确定性，提高代码的灵活性。
+
+
+
+
